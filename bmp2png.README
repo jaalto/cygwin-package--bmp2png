@@ -36,7 +36,7 @@ License:
   Custom ("Permission...any purpose and without fee")
 
   [from README]
-  Copyright (C) 1999-2005 MIYASAKA Masaru <alkaid@coral.ocn.ne.jp>
+  Copyright (C) 1999-2012 MIYASAKA Masaru <alkaid@coral.ocn.ne.jp>
 
   Permission to use, copy, modify, and distribute this software and
   its documentation for any purpose and without fee is hereby granted,
@@ -64,20 +64,17 @@ This will create:
 -------------------------------------------
 
 Files included in the binary distribution:
-
-usr/bin/bmp2png.exe
-usr/bin/png2bmp.exe
-usr/share/doc/Cygwin/bmp2png-1.62.README
-usr/share/doc/bmp2png-1.62/README
-usr/share/man/man1/bmp2png.1.gz
-usr/share/man/man1/png2bmp.1.gz
+  See Cygwin package archive
 
 ------------------
 
 Port Notes:
 
+----- version 1.62-1 -----
+- New upstream release 2012-09-25 Jari Aalto
+
 ----- version 1.62-0 -----
 - Private release 2007-12-02 Jari Aalto (libpng12)
 
 Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
-Copyright (C) 2007 Jari Aalto; Licensed under GPL v2 or later
+Copyright (C) 2007-2012 Jari Aalto; Licensed under GPL v2 or later
