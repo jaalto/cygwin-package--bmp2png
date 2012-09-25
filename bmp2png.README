@@ -70,11 +70,11 @@ Files included in the binary distribution:
 
 Port Notes:
 
------ version 1.62-1 -----
-- New upstream release 2012-09-25 Jari Aalto
+----- version 1.62-2 -----
+- libpng15 update 2012-09-25 Jari Aalto
 
------ version 1.62-0 -----
-- Private release 2007-12-02 Jari Aalto (libpng12)
+----- version 1.62-1 -----
+- Initial release 2007-12-02 Jari Aalto
 
 Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
 Copyright (C) 2007-2012 Jari Aalto; Licensed under GPL v2 or later
