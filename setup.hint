@@ -1,0 +1,5 @@
+sdesc: "Convert BMP images to PNG and vice versa"
+ldesc: "Command-line utilities that convert between Windows BMP format and PNG
+(Portable Network Graphics)."
+category: Graphics
+requires: libpng15 zlib0

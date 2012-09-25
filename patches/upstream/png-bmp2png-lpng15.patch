@@ -1,0 +1,10 @@
+--- common.h.orig	2005-09-04 01:00:00.000000000 +0900
++++ common.h	2012-09-25 15:31:52.000000000 +0900
+@@ -80,6 +80,7 @@
+ # include <fcntl.h>
+ #endif
+ 
++#include "zlib.h"
+ #include "png.h"
+ 
+ #if (PNG_LIBPNG_VER < 10004)

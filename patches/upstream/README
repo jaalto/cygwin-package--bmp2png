@@ -1,0 +1,29 @@
+Date: Tue, 25 Sep 2012 16:12:15 +0900
+From: alkaid@coral.ocn.ne.jp
+To: jari <jari.aalto@cante.net>
+Subject: Re: bmp2png: 1.26 compile problmes with libpng 1.5
+X-Mailer: HidemaruMail 5.78 (WinNT,501)
+
+[-- Attachment #1 --]
+[-- Type: text/plain, Encoding: 8bit, Size: 0.2K --]
+
+Hi,
+
+> I'm trying to compile bmp2png 1.62 with libpng 1.5 from
+>
+>     http://cetus.sakura.ne.jp/softlab/b2p-home/
+>
+> Would you have never release that is libpng 1.5+ compatible?
+
+Please try these patches.
+
+
+[-- Attachment #2: png2bmp-readdata.patch --]
+[-- Type: application/octet-stream, Encoding: base64, Size: 1.4K --]
+
+[-- application/octet-stream is unsupported (use 'v' to view this part) --]
+
+[-- Attachment #3: bmp2png-lpng15.patch --]
+[-- Type: application/octet-stream, Encoding: base64, Size: 0.3K --]
+
+[-- application/octet-stream is unsupported (use 'v' to view this part) --]

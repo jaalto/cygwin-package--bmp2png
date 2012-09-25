@@ -1,0 +1,83 @@
+bmp2png
+------------------------------------------
+
+Convert BMP images to PNG and vice versa
+
+Command-line utilities that convert between Windows BMP format and PNG
+(Portable Network Graphics).
+
+Runtime requirements:
+  libpng15
+  zlib0
+
+Build requirements:
+  libpng-devel
+  zlib-devel
+
+Canonical homepage:
+  http://cetus.sakura.ne.jp/softlab/b2p-home/
+
+Canonical download:
+  See above
+
+Version control repository:
+
+Mailing list:
+
+Forum / Wiki:
+
+IRC channel:
+
+Upstream contact:
+  Author: MIYASAKA Masaru <alkaid@coral.ocn.ne.jp>
+  Bugs: MIYASAKA Masaru <alkaid@coral.ocn.ne.jp>
+
+License:
+  Custom ("Permission...any purpose and without fee")
+
+  [from README]
+  Copyright (C) 1999-2005 MIYASAKA Masaru <alkaid@coral.ocn.ne.jp>
+
+  Permission to use, copy, modify, and distribute this software and
+  its documentation for any purpose and without fee is hereby granted,
+  provided that the above copyright notice appear in all copies and
+  that both that copyright notice and this permission notice appear
+  in supporting documentation. This software is provided "as is"
+  without express or implied warranty.
+
+Language:
+  C
+
+------------------------------------
+
+Build instructions:
+  unpack bmp2png-1.62-1-src.tar.bz2
+    if you use setup to install this src package, it will be
+    unpacked under /usr/src automatically
+  cd /usr/src
+  ./bmp2png*.sh all
+
+This will create:
+  bmp2png-1.62-1.tar.bz2
+  bmp2png-1.62-1-src.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary distribution:
+
+usr/bin/bmp2png.exe
+usr/bin/png2bmp.exe
+usr/share/doc/Cygwin/bmp2png-1.62.README
+usr/share/doc/bmp2png-1.62/README
+usr/share/man/man1/bmp2png.1.gz
+usr/share/man/man1/png2bmp.1.gz
+
+------------------
+
+Port Notes:
+
+----- version 1.62-0 -----
+- Private release 2007-12-02 Jari Aalto (libpng12)
+
+Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
+Copyright (C) 2007 Jari Aalto; Licensed under GPL v2 or later
