@@ -11,4 +11,4 @@
 #    program.pl
 
 bmp2png	usr/bin/
-ln usr/bin/bmp2png png2bmp
+png2bmp	usr/bin/
