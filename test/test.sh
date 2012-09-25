@@ -24,9 +24,9 @@ trap AtExit 0 1 2 3 15
 
 # #######################################################################
 
-file="$TMPBASE/pic-test.png"
+file="$TMPBASE-pic-test.png"
 
-Run "%% TEST bmp2png:"  bmp2png "$CURDIR/pic.bmp" -o "$file"
+Run "%% TEST bmp2png:"  bmp2png -o "$file" "$CURDIR/pic.bmp"
 
 Run "%% TEST png2bmp:" png2bmp "$file"
 
