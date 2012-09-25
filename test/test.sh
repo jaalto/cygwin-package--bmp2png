@@ -1,12 +1,18 @@
 #!/bin/sh
+#
+# Depends: sharutils (uudecode)
 
 set -e
 
-TMPBASE=$TMPDIR/tmp.$$
-CURDIR=$0
-CURDIR=${CURDIR%/*}
-
 TMPDIR=${TMPDIR:-/tmp}
+TMPBASE=$TMPDIR/tmp.$$
+CURDIR=.
+
+case "$0" in
+  */*) 
+	CURDIR=${CURDIR%/*}
+	;;
+esac			
 
 AtExit ()
 {
@@ -24,10 +30,15 @@ trap AtExit 0 1 2 3 15
 
 # #######################################################################
 
-file="$TMPBASE-pic-test.png"
 
-Run "%% TEST bmp2png:"  bmp2png -o "$file" "$CURDIR/pic.bmp"
+orig="$CURDIR/pic.bmp.uu"
+bmp="$TMPBASE-pic-test.bmp"
+png="$TMPBASE-pic-test.png"
 
-Run "%% TEST png2bmp:" png2bmp "$file"
+uudecode -o "$bmp" "$orig"
+
+Run "%% TEST bmp2png:" bmp2png -o "$png" "$bmp"
+
+Run "%% TEST png2bmp:" png2bmp "$png"
 
 # End of file
