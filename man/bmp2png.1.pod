@@ -20,7 +20,6 @@ png2bmp - PNG-to-BMP converter
 =head1 SYNOPSIS
 
   png2bmp [options] file [file ...]
-  bmp2png [options] file [file ...]
 
 =head1 OPTIONS
 
@@ -28,47 +27,47 @@ png2bmp - PNG-to-BMP converter
 
 =item B<-a>
 
-Preserve alpha channel (save in 32bit ARGB BMP format)
+Preserve alpha channel (save in 32bit ARGB BMP format).
 
 =item B<-b>
 
-Preserve alpha channel (save in 32bit Bitfield BMP format)
+Preserve alpha channel (save in 32bit Bitfield BMP format).
 
 =item B<-e>
 
-Delete input files after successful conversion
+Delete input files after successful conversion.
 
 =item B<-d dir>
 
-Output files into dir
+Output files into dir.
 
 =item B<-h>
 
-Print short help
+Display short help.
 
 =item B<-l>
 
-Log errors to ./p2berror.log file
+Log errors to C<./p2berror.log> file.
 
-=item B<-o file>
+=item B<-o FILE>
 
-Specify name for output file
+Specify name for output FILE.
 
 =item B<-r>
 
-Convert transparent color to alpha channel (use with -a or -b)
+Convert transparent color to alpha channel (use with B<-a> or B<-b>).
 
 =item B<-t>
 
-Set the timestamp of input file on output file
+Set the timestamp of input file on output file.
 
 =item B<-q>
 
-Quiet mode
+Quiet mode.
 
 =item B<-x>
 
-Disable conversion through standard input/output
+Disable conversion through standard input/output.
 
 =back
 
