@@ -20,6 +20,7 @@ png2bmp - PNG-to-BMP converter
 =head1 SYNOPSIS
 
   png2bmp [options] file [file ...]
+  png2bmp [options] file | cmd
 
 =head1 OPTIONS
 
