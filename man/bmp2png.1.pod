@@ -1,0 +1,112 @@
+#  This is manual page in Perl POD format. Read more at
+#  http://perldoc.perl.org/perlpod.html or run command:
+#
+#     perldoc perlpod | less
+#
+#  To check the syntax:
+#
+#     podchecker *.pod
+#
+#  Create manual page with command:
+#
+#    pod2man PAGE.N.pod > PAGE.N
+
+=pod
+
+=head1 NAME
+
+bmp2png - BMP-to-PNG converter
+
+=head1 SYNOPSIS
+
+  bmp2png [options] file [file ...]
+  bmp2png [options] file | cmd
+
+=head1 OPTIONS
+
+=over 4
+
+=item B<-N>
+
+Compression level in range 0..9 (default is 6).
+
+=item B<-a>
+
+Preserve alpha channel.
+
+=item B<-b>
+
+Preserve alpha channel.
+
+=item B<-e>
+
+Delete input files after successful conversion.
+
+=item B<-f TYPE[,...]>
+
+Specify filter type(s) used to create PNG files type: none, sub, up,
+average(avg), paeth, all, auto (default).
+
+=item B<-h>
+
+Display short help.
+
+=item B<-i dir>
+
+Create interlaced PNG file.
+
+=item B<-l>
+
+Log errors to C<./p2berror.log> file.
+
+=item B<-o FILE>
+
+Specify name for output FILE.
+
+=item B<-p COLOR>
+
+Mark the specified color as transparent color:
+#RRGGBB(html hex) /
+RR,GG,BB(decimal) /
+NN(palette index).
+
+=item B<-q>
+
+Quiet mode.
+
+=item B<-t>
+
+Set the timestamp of input file on output file.
+
+=item B<-x>
+
+Disable conversion through standard input/output.
+
+=back
+
+=head1 DESCRIPTION
+
+An image conversion program.
+
+=head1 ENVIRONMENT
+
+None.
+
+=head1 FILES
+
+None.
+
+=head1 SEE ALSO
+
+bmp2png(1) pngmeta(1) pngquant(1) pngcrush(1)
+
+=head1 AUTHORS
+
+Program was written by MIYASAKA Masaru <alkaid@coral.ocn.ne.jp>.
+
+This manual page was written by Jari Aalto <jari.aalto@cante.net>.
+Released under license GNU GPL version 2 or (at your option) any later
+version.  For more information about the license, visit
+<http://www.gnu.org/copyleft/gpl.html>.
+
+=cut
