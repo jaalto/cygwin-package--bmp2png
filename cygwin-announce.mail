@@ -1,5 +1,5 @@
 To: cygwin-announce@cygwin.com
-Subject: Updated: bmp2png 1.62-2 -- Convert BMP images to PNG and vice versa
+Subject: Updated: bmp2png 1.62-3 -- Convert BMP images to PNG and vice versa
 --text follows this line--
 
 PACKAGE DESCRIPTION
@@ -14,8 +14,7 @@ Command-line utilities that convert between Windows BMP format and PNG
 CHANGES SINCE LAST RELEASE
 ==========================
 
-No user visible changes. Update to libpng15.
-
+Cygwin: compiled with libpng16
 See homepage for release notes.
 
 INSTALL OR UPGRADE NOTES

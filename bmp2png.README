@@ -7,7 +7,7 @@ Command-line utilities that convert between Windows BMP format and PNG
 (Portable Network Graphics).
 
 Runtime requirements:
-  libpng15
+  libpng16
   zlib0
 
 Build requirements:
@@ -15,7 +15,7 @@ Build requirements:
   zlib-devel
 
 Canonical homepage:
-  http://cetus.sakura.ne.jp/softlab/b2p-home/
+  http://cetus.sakura.ne.jp/softlab/b2p-home
 
 Canonical download:
   See above
@@ -29,52 +29,39 @@ Forum / Wiki:
 IRC channel:
 
 Upstream contact:
-  Author: MIYASAKA Masaru <alkaid@coral.ocn.ne.jp>
+  Maintainer: MIYASAKA Masaru <alkaid@coral.ocn.ne.jp>
   Bugs: MIYASAKA Masaru <alkaid@coral.ocn.ne.jp>
 
 License:
-  Custom ("Permission...any purpose and without fee")
-
-  [from README]
-  Copyright (C) 1999-2012 MIYASAKA Masaru <alkaid@coral.ocn.ne.jp>
-
-  Permission to use, copy, modify, and distribute this software and
-  its documentation for any purpose and without fee is hereby granted,
-  provided that the above copyright notice appear in all copies and
-  that both that copyright notice and this permission notice appear
-  in supporting documentation. This software is provided "as is"
-  without express or implied warranty.
+   Custom ("Permission...any purpose and without fee")
 
 Language:
   C
 
-------------------------------------
+------------------------------------------
 
 Build instructions:
-  unpack bmp2png-1.62-1-src.tar.bz2
-    if you use setup to install this src package, it will be
+  unpack bmp2png-*-src.tar.bz2
+    if you use setup to install this source package, it will be
     unpacked under /usr/src automatically
   cd /usr/src
   ./bmp2png*.sh all
 
-This will create:
-  bmp2png-1.62-1.tar.bz2
-  bmp2png-1.62-1-src.tar.bz2
-
--------------------------------------------
+------------------------------------------
 
 Files included in the binary distribution:
   See Cygwin package archive
 
-------------------
+------------------------------------------
 
 Port Notes:
 
------ version 1.62-2 -----
-- libpng15 update 2012-09-25 Jari Aalto
+----- version 1.62-3 -----
+- New release 2015-02-12 Jari Aalto
+- Compile with libpng16
 
------ version 1.62-1 -----
-- Initial release 2007-12-02 Jari Aalto
+----- version 1.60 -----
+- Initial release Unknown
 
 Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
-Copyright (C) 2007-2012 Jari Aalto; Licensed under GPL v2 or later
+Copyright (C) 2013-2015 Jari Aalto; Licensed under GPL v2 or later
